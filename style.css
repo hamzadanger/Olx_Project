@@ -902,3 +902,265 @@ p {
     margin-top: 10px;
     cursor: pointer;
 }
+
+
+@media (max-width: 1100px) {
+    .back_to_top h3 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .small__navbar,
+    .second__navbar,
+    .third__navbar,
+    .ad,
+    .all,
+    .fresh__recomandation,
+    .footer_the_olx_app_section,
+    .footer__content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .second__navbar .search__bar {
+        width: 500px;
+    }
+
+    .ad img {
+        width: 965px;
+    }
+
+    .all__main {
+        column-gap: 91px;
+    }
+
+    .cards__container {
+        row-gap: 20px;
+        justify-content: center;
+    }
+
+    .cards__container .card {
+        width: calc(35% - 20px);
+    }
+
+    .productDetails {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .line {
+        padding: 0px 7px;
+    }
+
+    .left__side,
+    .right__side {
+        width: 100%;
+    }
+
+    .left__side img {
+        height: 400px;
+    }
+
+    .right__side {
+        margin-top: 20px;
+    }
+
+    .icons i {
+        font-size: 13px;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 992px) {
+    .second__navbar .search__bar {
+        width: 400px;
+    }
+
+    .login__sell {
+        margin-left: 16px;
+        gap: 8px;
+    }
+
+    a.category__wrap {
+        gap: 6px;
+        margin-right: 18px;
+        font-size: 16px;
+    }
+
+    .ad {
+        height: 120px;
+    }
+
+    .ad img {
+        width: 735px;
+    }
+
+    .all {
+        padding: 16px 20px;
+    }
+
+    .all__main {
+        column-gap: 82px;
+    }
+
+    .cards__container .card {
+        width: calc(50% - 10px);
+    }
+
+    .left__side img {
+        height: 350px;
+    }
+
+    .footer_the_olx_app_section {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer_olx_content,
+    .get__your_app_today {
+        text-align: center;
+    }
+
+    .get__your_app_today {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer__content .lists {
+        align-items: flex-start !important;
+        column-gap: 40px;
+    }
+
+    .footer__content ul {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .icons i {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .back_to_top h3 {
+        top: 80px;
+    }
+
+    .small__navbar,
+    .second__navbar,
+    .third__navbar,
+    .ad,
+    .all,
+    .fresh__recomandation,
+    .footer_the_olx_app_section,
+    .footer__content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .second__navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .second__navbar .select_option,
+    .second__navbar .search__bar {
+        width: 62%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .login__sell {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .third__navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 240px;
+    }
+
+    .ad {
+        margin-top: 80px;
+        margin-bottom: 70px;
+        height: 0px;
+    }
+
+    .ad img {
+        width: 100%;
+        height: 85px;
+    }
+
+    .select__itself {
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 0px;
+    }
+
+    .all {
+        padding-top: 0px;
+    }
+
+    .all__main {
+        column-gap: 17px;
+    }
+
+    .all__img {
+        width: 78px;
+        height: 78px;
+    }
+
+    .cards__container .card {
+        width: 79%;
+    }
+
+    .left__side img {
+        height: 300px;
+    }
+
+    .profile_contact_card {
+        height: auto;
+        padding: 10px;
+    }
+
+    .avaar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right__side button {
+        width: 100%;
+    }
+
+    .get__your_app_today {
+        width: 100%;
+    }
+
+    .footer__content .lists {
+        flex-wrap: wrap;
+        column-gap: 91px;
+    }
+
+    .footer__bottom {
+        justify-content: center;
+    }
+
+    .name__heart i {
+        position: relative;
+        top: -9px;
+    }
+}
